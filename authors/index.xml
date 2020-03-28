@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Rahul Vigneswaran K</title>
-    <link>rahulvigneswaran.github.io/authors/</link>
-      <atom:link href="rahulvigneswaran.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <title>Authors | Rahul-Vigneswaran K</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy Rahul Vigneswaran K 2019</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Rahul-Vigneswaran K 2020</copyright><lastBuildDate>Sun, 29 Mar 2020 02:26:30 +0530</lastBuildDate>
     <image>
-      <url>rahulvigneswaran.github.io/img/icon-192.png</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
-      <link>rahulvigneswaran.github.io/authors/</link>
+      <link>/authors/</link>
     </image>
-    
-    <item>
-      <title></title>
-      <link>rahulvigneswaran.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>rahulvigneswaran.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;Hi! I am Rahul Vigneswaran, a Research Assistant at &lt;a href=&#34;https://www.iith.ac.in/&#34; target=&#34;_blank&#34;&gt;IIT-Hyderabad&lt;/a&gt;, working with &lt;a href=&#34;https://www.iith.ac.in/~vineethnb/index.html&#34; target=&#34;_blank&#34;&gt;Dr Vineeth N Balasubramanian&lt;/a&gt; on studying the loss surfaces in Deep Learning.&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>

@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Rahul Vigneswaran K</title>
-    <link>rahulvigneswaran.github.io/publication/</link>
-      <atom:link href="rahulvigneswaran.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <title>Publications | Rahul-Vigneswaran K</title>
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy Rahul Vigneswaran K 2019</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Rahul-Vigneswaran K 2020</copyright><lastBuildDate>Tue, 29 Oct 2019 00:31:22 +0530</lastBuildDate>
     <image>
-      <url>rahulvigneswaran.github.io/img/icon-192.png</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Publications</title>
-      <link>rahulvigneswaran.github.io/publication/</link>
+      <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Dynamic Mode Decomposition based feature for Image Classification</title>
+      <link>/publication/dmd-based-feature-for-image-classification/</link>
+      <pubDate>Tue, 29 Oct 2019 00:31:22 +0530</pubDate>
+      <guid>/publication/dmd-based-feature-for-image-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Drive Computing for Elasticity via Chebyshev Approximation</title>
+      <link>/publication/data-drive-computing-for-elasticity-via-chebyshev-approximation/</link>
+      <pubDate>Tue, 23 Apr 2019 00:49:15 +0530</pubDate>
+      <guid>/publication/data-drive-computing-for-elasticity-via-chebyshev-approximation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Compendium on Network and Host Based Intrusion Detection Systems</title>
+      <link>/publication/a-compendium-on-network-and-host-based-intrusion-detection-systems/</link>
+      <pubDate>Sat, 06 Apr 2019 01:15:09 +0530</pubDate>
+      <guid>/publication/a-compendium-on-network-and-host-based-intrusion-detection-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating Shallow and Deep Neural Networks for Network Intrusion Detection Systems in Cyber Security</title>
+      <link>/publication/evaluating-shallow-and-deep-neural-networks-for-network-intrusion-detection-systems-in-cyber-security/</link>
+      <pubDate>Tue, 10 Jul 2018 01:21:44 +0530</pubDate>
+      <guid>/publication/evaluating-shallow-and-deep-neural-networks-for-network-intrusion-detection-systems-in-cyber-security/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

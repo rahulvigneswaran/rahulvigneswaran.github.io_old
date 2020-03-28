@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neethu Mohan | Rahul-Vigneswaran K</title>
+    <link>/authors/neethu-mohan/</link>
+      <atom:link href="/authors/neethu-mohan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Neethu Mohan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Rahul-Vigneswaran K 2020</copyright><lastBuildDate>Tue, 29 Oct 2019 00:31:22 +0530</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Neethu Mohan</title>
+      <link>/authors/neethu-mohan/</link>
+    </image>
+    
+    <item>
+      <title>Dynamic Mode Decomposition based feature for Image Classification</title>
+      <link>/publication/dmd-based-feature-for-image-classification/</link>
+      <pubDate>Tue, 29 Oct 2019 00:31:22 +0530</pubDate>
+      <guid>/publication/dmd-based-feature-for-image-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Drive Computing for Elasticity via Chebyshev Approximation</title>
+      <link>/publication/data-drive-computing-for-elasticity-via-chebyshev-approximation/</link>
+      <pubDate>Tue, 23 Apr 2019 00:49:15 +0530</pubDate>
+      <guid>/publication/data-drive-computing-for-elasticity-via-chebyshev-approximation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

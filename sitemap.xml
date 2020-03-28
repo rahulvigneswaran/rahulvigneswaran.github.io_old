@@ -1,41 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>rahulvigneswaran.github.io/authors/admin/</loc>
+    <loc>/authors/admin/</loc>
+    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
   </url>
   
   <url>
-    <loc>rahulvigneswaran.github.io/authors/</loc>
+    <loc>/authors/</loc>
+    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
   </url>
   
   <url>
-    <loc>rahulvigneswaran.github.io/categories/</loc>
+    <loc>/tags/cyber-security/</loc>
+    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
   </url>
   
   <url>
-    <loc>rahulvigneswaran.github.io/post/</loc>
+    <loc>/tags/deep-learning/</loc>
+    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
   </url>
   
   <url>
-    <loc>rahulvigneswaran.github.io/publication_types/</loc>
+    <loc>/project/intrusion-detection-systems/</loc>
+    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
   </url>
   
   <url>
-    <loc>rahulvigneswaran.github.io/publication/</loc>
+    <loc>/tags/intrusion-detection-system/</loc>
+    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
   </url>
   
   <url>
-    <loc>rahulvigneswaran.github.io/</loc>
+    <loc>/project/</loc>
+    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
   </url>
   
   <url>
-    <loc>rahulvigneswaran.github.io/talk/</loc>
+    <loc>/</loc>
+    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
   </url>
   
   <url>
-    <loc>rahulvigneswaran.github.io/tags/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2019-10-29T00:31:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/dmd/</loc>
+    <lastmod>2019-10-29T00:31:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/dmd-based-feature-for-image-classification/</loc>
+    <lastmod>2019-10-29T00:31:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/limited-data/</loc>
+    <lastmod>2019-10-29T00:31:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/neethu-mohan/</loc>
+    <lastmod>2019-10-29T00:31:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-10-29T00:31:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-10-29T00:31:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sachin-kumar-s/</loc>
+    <lastmod>2019-10-29T00:31:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/soman-kp/</loc>
+    <lastmod>2019-10-29T00:31:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2019-04-23T00:49:15+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/chebfun/</loc>
+    <lastmod>2019-04-23T00:49:15+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/data-drive-computing-for-elasticity-via-chebyshev-approximation/</loc>
+    <lastmod>2019-04-23T00:49:15+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data-driven/</loc>
+    <lastmod>2019-04-23T00:49:15+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/elasticity/</loc>
+    <lastmod>2019-04-23T00:49:15+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/mechanical/</loc>
+    <lastmod>2019-04-23T00:49:15+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/a-compendium-on-network-and-host-based-intrusion-detection-systems/</loc>
+    <lastmod>2019-04-06T01:15:09+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/prabaharan-poornachandran/</loc>
+    <lastmod>2019-04-06T01:15:09+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/evaluating-shallow-and-deep-neural-networks-for-network-intrusion-detection-systems-in-cyber-security/</loc>
+    <lastmod>2018-07-10T01:21:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/vinayakumar-r/</loc>
+    <lastmod>2018-07-10T01:21:44+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
   </url>
   
 </urlset>
