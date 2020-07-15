@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Prabaharan Poornachandran | Rahul-Vigneswaran K</title>
+    <title>Prabaharan Poornachandran | Rahul Vigneswaran</title>
     <link>/authors/prabaharan-poornachandran/</link>
       <atom:link href="/authors/prabaharan-poornachandran/index.xml" rel="self" type="application/rss+xml" />
     <description>Prabaharan Poornachandran</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Rahul-Vigneswaran K 2020</copyright><lastBuildDate>Sat, 06 Apr 2019 01:15:09 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020 Rahul Vigneswaran ©</copyright><lastBuildDate>Sat, 06 Apr 2019 01:15:09 +0530</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>Prabaharan Poornachandran</title>
       <link>/authors/prabaharan-poornachandran/</link>
     </image>
