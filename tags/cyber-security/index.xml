@@ -5,25 +5,12 @@
     <link>/tags/cyber-security/</link>
       <atom:link href="/tags/cyber-security/index.xml" rel="self" type="application/rss+xml" />
     <description>cyber-security</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020 Rahul Vigneswaran ©</copyright><lastBuildDate>Sun, 29 Mar 2020 02:26:30 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020 Rahul Vigneswaran ©</copyright><lastBuildDate>Sat, 06 Apr 2019 01:15:09 +0530</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>cyber-security</title>
       <link>/tags/cyber-security/</link>
     </image>
-    
-    <item>
-      <title>Intrusion Detection Systems</title>
-      <link>/project/intrusion-detection-systems/</link>
-      <pubDate>Sun, 29 Mar 2020 02:26:30 +0530</pubDate>
-      <guid>/project/intrusion-detection-systems/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Implemented and analyzed Deep and Shallow Neural Nets in the Cybersecurity use case of Intrusion Detection Systems (IDS).&lt;/li&gt;
-&lt;li&gt;Analyzed and studied various state-of-art implementations of Host and Network-based Intrusion Detection Systems (IDS).
-$\bigstar$ Work accepted at a SCOPUS indexed conference held at IISC Banglore.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>A Compendium on Network and Host Based Intrusion Detection Systems</title>

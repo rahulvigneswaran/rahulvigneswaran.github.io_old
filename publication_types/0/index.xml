@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | Rahul Vigneswaran</title>
+    <link>/publication_types/0/</link>
+      <atom:link href="/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020 Rahul Vigneswaran ©</copyright><lastBuildDate>Wed, 19 Aug 2020 18:48:43 +0530</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>0</title>
+      <link>/publication_types/0/</link>
+    </image>
+    
+    <item>
+      <title>A Deeper Look at the Hessian Eigen spectrum of Deep Neural Networks and its Applications to Regularization (Under Review)</title>
+      <link>/publication/layer-hessian-regularizer/</link>
+      <pubDate>Wed, 19 Aug 2020 18:48:43 +0530</pubDate>
+      <guid>/publication/layer-hessian-regularizer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

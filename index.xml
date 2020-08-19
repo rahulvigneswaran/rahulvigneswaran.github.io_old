@@ -13,15 +13,60 @@
     </image>
     
     <item>
-      <title>Intrusion Detection Systems</title>
-      <link>/project/intrusion-detection-systems/</link>
-      <pubDate>Sun, 29 Mar 2020 02:26:30 +0530</pubDate>
-      <guid>/project/intrusion-detection-systems/</guid>
+      <title>A Deeper Look at the Hessian Eigen spectrum of Deep Neural Networks and its Applications to Regularization (Under Review)</title>
+      <link>/publication/layer-hessian-regularizer/</link>
+      <pubDate>Wed, 19 Aug 2020 18:48:43 +0530</pubDate>
+      <guid>/publication/layer-hessian-regularizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incremental Loss Landscape</title>
+      <link>/project/incremental-loss-landscape/</link>
+      <pubDate>Wed, 19 Aug 2020 18:14:06 +0530</pubDate>
+      <guid>/project/incremental-loss-landscape/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;Implemented and analyzed Deep and Shallow Neural Nets in the Cybersecurity use case of Intrusion Detection Systems (IDS).&lt;/li&gt;
-&lt;li&gt;Analyzed and studied various state-of-art implementations of Host and Network-based Intrusion Detection Systems (IDS).
-$\bigstar$ Work accepted at a SCOPUS indexed conference held at IISC Banglore.&lt;/li&gt;
+&lt;li&gt;The theoretical literature on continual learning is minimal, and in this work, we try to fix the same. Worked on understanding how catastrophic forgetting translates to loss landscape and how understanding it can pave the way for more theoretically grounded continual learning methods.&lt;/li&gt;
+&lt;li&gt;Worked on understanding how regularization based catastrophic forgetting mitigation techniques behave in loss landscapes and why some methods are more successful in achieving the same than others. Analyzed whether tools like, to name a few - PAC-Bayesian, Hessian&amp;rsquo;s Eigen Spectrum, fluctuation-dissipation, intrinsic dimensionality can aid in understanding continual learning better.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Advisor :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.iith.ac.in/~vineethnb/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Vineeth N Balasubramanian&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Layerwise Hessian Analysis</title>
+      <link>/project/layerwise-hessian-analysis/</link>
+      <pubDate>Sun, 19 Jan 2020 18:04:22 +0530</pubDate>
+      <guid>/project/layerwise-hessian-analysis/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Recent works&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; have demonstrated a bulk and outlier trend in their Hessian&amp;rsquo;s Eigen Spectrum. In this work, we have discovered a similar trend in the layer-wise spectrum, too, which indicates an implicit similarity between the overall loss landscape and layer-wise loss landscape, which is a community first.&lt;/li&gt;
+&lt;li&gt;We leverage this observation and formulate a regularizer that forces the optimizer to converge to a minima of better generalization properties. Further, through this analysis, we have substantiated that studying the layer-wise loss landscape is worth the community&amp;rsquo;s efforts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Work under review at a Top-Tier Conference.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Advisor :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.iith.ac.in/~vineethnb/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Vineeth N Balasubramanian&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1901.08244&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Measurements of Three-Level Hierarchical Structure in the Outliers in the Spectrum of Deepnet Hessians&lt;/a&gt; &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1706.04454&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Empirical Analysis of the Hessian of Over-Parametrized Neural Networks&lt;/a&gt; &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
@@ -34,6 +79,28 @@ $\bigstar$ Work accepted at a SCOPUS indexed conference held at IISC Banglore.&l
     </item>
     
     <item>
+      <title>Learning With Limited Labeled Data</title>
+      <link>/project/learning-with-limited-labeled-data/</link>
+      <pubDate>Wed, 19 Jun 2019 18:19:59 +0530</pubDate>
+      <guid>/project/learning-with-limited-labeled-data/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Worked on understanding the existing techniques used for learning with limited labeled data and explored non-conventional techniques for efficiently learning a distribution with limited-resource.&lt;/li&gt;
+&lt;li&gt;Used Dynamic Mode Decomposition (DMD) to extract the dominant features of images for classifying with limited labeled data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Accepted for an oral presentation at &lt;strong&gt;TENCON&amp;rsquo;19&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Advisors :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.co.in/citations?user=R_zpXOkAAAAJ%5c&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Soman KP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.co.in/citations?user=-ztk7jMAAAAJ%5c&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mr Sachin Kumar S&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Drive Computing for Elasticity via Chebyshev Approximation</title>
       <link>/publication/data-drive-computing-for-elasticity-via-chebyshev-approximation/</link>
       <pubDate>Tue, 23 Apr 2019 00:49:15 +0530</pubDate>
@@ -42,11 +109,66 @@ $\bigstar$ Work accepted at a SCOPUS indexed conference held at IISC Banglore.&l
     </item>
     
     <item>
+      <title>Shape Optimization using DMD and POD</title>
+      <link>/project/shape-optimization/</link>
+      <pubDate>Fri, 19 Apr 2019 17:51:56 +0530</pubDate>
+      <guid>/project/shape-optimization/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Explored the idea of Data-driven shape optimization, especially in ship hulls. Used Proper Orthogonal Decomposition based model order reduction approach and Dynamic Mode Decomposition (DMD) to reduce the time of turbulent flow simulation involved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Advisors :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.co.in/citations?user=R_zpXOkAAAAJ%5c&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Soman KP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.co.in/citations?user=2selpAEAAAAJ%5c&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Gopalakrishnan EA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Compendium on Network and Host Based Intrusion Detection Systems</title>
       <link>/publication/a-compendium-on-network-and-host-based-intrusion-detection-systems/</link>
       <pubDate>Sat, 06 Apr 2019 01:15:09 +0530</pubDate>
       <guid>/publication/a-compendium-on-network-and-host-based-intrusion-detection-systems/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Trace metal analysis of Pre-flood and Post-flood drinking water in Kerala</title>
+      <link>/project/trace-metal/</link>
+      <pubDate>Wed, 19 Dec 2018 18:16:58 +0530</pubDate>
+      <guid>/project/trace-metal/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Conducted a detailed study on various contents of the water samples, especially trace metals, which were collected Pre and post to a Flood in the state of Kerala.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Advisor :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.co.in/citations?user=R_zpXOkAAAAJ%5c&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ms Geena Prasad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intrusion Detection Systems</title>
+      <link>/project/intrusion-detection-systems/</link>
+      <pubDate>Wed, 29 Aug 2018 02:26:30 +0530</pubDate>
+      <guid>/project/intrusion-detection-systems/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Implemented and Contrasted Deep and Shallow Neural Nets in the Cybersecurity use case of Intrusion Detection Systems (IDS) while studying the various SOTAs of Host and Network-based Intrusion Detection Systems (IDS).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Work accepted at a &lt;strong&gt;SCOPUS&lt;/strong&gt; indexed conference held at IISC Banglore.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Advisors :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.co.in/citations?user=R_zpXOkAAAAJ%5c&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Soman KP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.com/citations?user=e233m6MAAAAJ%5c&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Prabaharan Poornachandran&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>

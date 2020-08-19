@@ -4,42 +4,72 @@
   
   <url>
     <loc>/authors/admin/</loc>
-    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
+    <lastmod>2020-08-19T18:48:43+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/0/</loc>
+    <lastmod>2020-08-19T18:48:43+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/layer-hessian-regularizer/</loc>
+    <lastmod>2020-08-19T18:48:43+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/adepu-ravi-shankar/</loc>
+    <lastmod>2020-08-19T18:48:43+05:30</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
+    <lastmod>2020-08-19T18:48:43+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/tags/cyber-security/</loc>
-    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-08-19T18:48:43+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/tags/deep-learning/</loc>
-    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
+    <loc>/publication/</loc>
+    <lastmod>2020-08-19T18:48:43+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/project/intrusion-detection-systems/</loc>
-    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
+    <loc>/authors/vineeth-n-balasubramanian/</loc>
+    <lastmod>2020-08-19T18:48:43+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/tags/intrusion-detection-system/</loc>
-    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
+    <loc>/authors/yash-khasbage/</loc>
+    <lastmod>2020-08-19T18:48:43+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/incremental-loss-landscape/</loc>
+    <lastmod>2020-08-19T18:14:06+05:30</lastmod>
   </url>
   
   <url>
     <loc>/project/</loc>
-    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
+    <lastmod>2020-08-19T18:14:06+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/research/</loc>
+    <lastmod>2020-08-19T18:14:06+05:30</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-03-29T02:26:30+05:30</lastmod>
+    <lastmod>2020-08-19T18:14:06+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/layerwise-hessian-analysis/</loc>
+    <lastmod>2020-01-19T18:04:22+05:30</lastmod>
   </url>
   
   <url>
@@ -68,16 +98,6 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-10-29T00:31:22+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2019-10-29T00:31:22+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/sachin-kumar-s/</loc>
     <lastmod>2019-10-29T00:31:22+05:30</lastmod>
   </url>
@@ -85,6 +105,16 @@
   <url>
     <loc>/authors/soman-kp/</loc>
     <lastmod>2019-10-29T00:31:22+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/academic/</loc>
+    <lastmod>2019-06-19T18:19:59+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/learning-with-limited-labeled-data/</loc>
+    <lastmod>2019-06-19T18:19:59+05:30</lastmod>
   </url>
   
   <url>
@@ -118,13 +148,38 @@
   </url>
   
   <url>
+    <loc>/project/shape-optimization/</loc>
+    <lastmod>2019-04-19T17:51:56+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/a-compendium-on-network-and-host-based-intrusion-detection-systems/</loc>
+    <lastmod>2019-04-06T01:15:09+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cyber-security/</loc>
+    <lastmod>2019-04-06T01:15:09+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/intrusion-detection-system/</loc>
     <lastmod>2019-04-06T01:15:09+05:30</lastmod>
   </url>
   
   <url>
     <loc>/authors/prabaharan-poornachandran/</loc>
     <lastmod>2019-04-06T01:15:09+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/trace-metal/</loc>
+    <lastmod>2018-12-19T18:16:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/intrusion-detection-systems/</loc>
+    <lastmod>2018-08-29T02:26:30+05:30</lastmod>
   </url>
   
   <url>

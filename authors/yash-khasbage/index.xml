@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yash Khasbage | Rahul Vigneswaran</title>
+    <link>/authors/yash-khasbage/</link>
+      <atom:link href="/authors/yash-khasbage/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yash Khasbage</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020 Rahul Vigneswaran ©</copyright><lastBuildDate>Wed, 19 Aug 2020 18:48:43 +0530</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>Yash Khasbage</title>
+      <link>/authors/yash-khasbage/</link>
+    </image>
+    
+    <item>
+      <title>A Deeper Look at the Hessian Eigen spectrum of Deep Neural Networks and its Applications to Regularization (Under Review)</title>
+      <link>/publication/layer-hessian-regularizer/</link>
+      <pubDate>Wed, 19 Aug 2020 18:48:43 +0530</pubDate>
+      <guid>/publication/layer-hessian-regularizer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

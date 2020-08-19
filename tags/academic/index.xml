@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>academic | Rahul Vigneswaran</title>
+    <link>/tags/academic/</link>
+      <atom:link href="/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    <description>academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020 Rahul Vigneswaran ©</copyright><lastBuildDate>Wed, 19 Jun 2019 18:19:59 +0530</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>academic</title>
+      <link>/tags/academic/</link>
+    </image>
+    
+    <item>
+      <title>Learning With Limited Labeled Data</title>
+      <link>/project/learning-with-limited-labeled-data/</link>
+      <pubDate>Wed, 19 Jun 2019 18:19:59 +0530</pubDate>
+      <guid>/project/learning-with-limited-labeled-data/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Worked on understanding the existing techniques used for learning with limited labeled data and explored non-conventional techniques for efficiently learning a distribution with limited-resource.&lt;/li&gt;
+&lt;li&gt;Used Dynamic Mode Decomposition (DMD) to extract the dominant features of images for classifying with limited labeled data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Accepted for an oral presentation at &lt;strong&gt;TENCON&amp;rsquo;19&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Advisors :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.co.in/citations?user=R_zpXOkAAAAJ%5c&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr Soman KP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.co.in/citations?user=-ztk7jMAAAAJ%5c&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mr Sachin Kumar S&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trace metal analysis of Pre-flood and Post-flood drinking water in Kerala</title>
+      <link>/project/trace-metal/</link>
+      <pubDate>Wed, 19 Dec 2018 18:16:58 +0530</pubDate>
+      <guid>/project/trace-metal/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Conducted a detailed study on various contents of the water samples, especially trace metals, which were collected Pre and post to a Flood in the state of Kerala.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Advisor :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.co.in/citations?user=R_zpXOkAAAAJ%5c&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ms Geena Prasad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
