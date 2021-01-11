@@ -5,12 +5,20 @@
     <link>/publication_types/1/</link>
       <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020 Rahul Vigneswaran ©</copyright><lastBuildDate>Tue, 23 Apr 2019 00:49:15 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021 Rahul Vigneswaran ©</copyright><lastBuildDate>Wed, 19 Aug 2020 18:48:43 +0530</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>1</title>
       <link>/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>A Deeper Look at the Hessian Eigen spectrum of Deep Neural Networks and its Applications to Regularization</title>
+      <link>/publication/layer-hessian-regularizer/</link>
+      <pubDate>Wed, 19 Aug 2020 18:48:43 +0530</pubDate>
+      <guid>/publication/layer-hessian-regularizer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data Drive Computing for Elasticity via Chebyshev Approximation</title>

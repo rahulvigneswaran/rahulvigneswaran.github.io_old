@@ -5,7 +5,7 @@
     <link>/authors/admin/</link>
       <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Rahul Vigneswaran</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2020 Rahul Vigneswaran ©</copyright><lastBuildDate>Wed, 19 Aug 2020 18:48:43 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021 Rahul Vigneswaran ©</copyright><lastBuildDate>Wed, 19 Aug 2020 18:48:43 +0530</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>Rahul Vigneswaran</title>
@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>A Deeper Look at the Hessian Eigen spectrum of Deep Neural Networks and its Applications to Regularization (Under Review)</title>
+      <title>A Deeper Look at the Hessian Eigen spectrum of Deep Neural Networks and its Applications to Regularization</title>
       <link>/publication/layer-hessian-regularizer/</link>
       <pubDate>Wed, 19 Aug 2020 18:48:43 +0530</pubDate>
       <guid>/publication/layer-hessian-regularizer/</guid>
