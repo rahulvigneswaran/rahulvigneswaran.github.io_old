@@ -26,8 +26,8 @@
       <pubDate>Wed, 19 Aug 2020 18:14:06 +0530</pubDate>
       <guid>/project/incremental-loss-landscape/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;The theoretical literature on continual learning is minimal, and in this work, we try to fix the same. Worked on understanding how catastrophic forgetting translates to loss landscape and how understanding it can pave the way for more theoretically grounded continual learning methods.&lt;/li&gt;
-&lt;li&gt;Worked on understanding how regularization based catastrophic forgetting mitigation techniques behave in loss landscapes and why some methods are more successful in achieving the same than others. Analyzed whether tools like, to name a few - PAC-Bayesian, Hessian&amp;rsquo;s Eigen Spectrum, fluctuation-dissipation, intrinsic dimensionality can aid in understanding continual learning better.&lt;/li&gt;
+&lt;li&gt;The theoretical literature on continual learning is minimal, and in this work, we try to fix the same. Worked on understanding how catastrophic forgetting translates to loss landscape and how it can pave the way for more theoretically grounded continual learning methods.&lt;/li&gt;
+&lt;li&gt;Worked on understanding how regularization based catastrophic forgetting mitigation techniques behave in loss landscapes and why some methods are more successful in achieving the same than others. Analyzed whether tools like, to name a few - Hessian&amp;rsquo;s Eigen Spectrum, fluctuation-dissipation, intrinsic dimensionality can aid in understanding continual learning better.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Advisor :&lt;/p&gt;
 &lt;ul&gt;
@@ -47,7 +47,7 @@
 &lt;li&gt;We leverage this observation and formulate a regularizer that forces the optimizer to converge to a minima of better generalization properties. Further, through this analysis, we have substantiated that studying the layer-wise loss landscape is worth the community&amp;rsquo;s efforts.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Work under review at a Top-Tier Conference.&lt;/p&gt;
+&lt;p&gt;Work accepted at &lt;strong&gt;AAAI&lt;/strong&gt; 2021.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Advisor :&lt;/p&gt;
 &lt;ul&gt;
