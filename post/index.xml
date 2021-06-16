@@ -5,12 +5,22 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021 Rahul Vigneswaran ©</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021 Rahul Vigneswaran ©</copyright><lastBuildDate>Sat, 13 Mar 2021 05:17:07 +0530</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Long Tail Classification</title>
+      <link>/post/long-tail-classification/</link>
+      <pubDate>Sat, 13 Mar 2021 05:17:07 +0530</pubDate>
+      <guid>/post/long-tail-classification/</guid>
+      <description>&lt;h1 id=&#34;tomato-is-the-best-potato&#34;&gt;Tomato is the best potato&lt;/h1&gt;
+&lt;p&gt;$a_2 \geq \delta^2$&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

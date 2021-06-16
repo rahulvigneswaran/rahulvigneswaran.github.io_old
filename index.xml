@@ -13,6 +13,16 @@
     </image>
     
     <item>
+      <title>Long Tail Classification</title>
+      <link>/post/long-tail-classification/</link>
+      <pubDate>Sat, 13 Mar 2021 05:17:07 +0530</pubDate>
+      <guid>/post/long-tail-classification/</guid>
+      <description>&lt;h1 id=&#34;tomato-is-the-best-potato&#34;&gt;Tomato is the best potato&lt;/h1&gt;
+&lt;p&gt;$a_2 \geq \delta^2$&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Deeper Look at the Hessian Eigen spectrum of Deep Neural Networks and its Applications to Regularization</title>
       <link>/publication/layer-hessian-regularizer/</link>
       <pubDate>Wed, 19 Aug 2020 18:48:43 +0530</pubDate>
@@ -195,7 +205,6 @@
 
 &lt;p&gt;&lt;strong&gt;[Dec 2020]  :&lt;/strong&gt; Our work titled &lt;a href=&#34;/publication/layer-hessian-regularizer&#34;&gt;A Deeper Look at the Hessian Eigenspectrum of Deep Neural Networks and its Applications to Regularization&lt;/a&gt; got accepted into &lt;strong&gt;AAAI 2021&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[Oct 2020]  :&lt;/strong&gt; Started working with &lt;a href=&#34;http://www.cs.toronto.edu/~makarand/&#34;&gt;Makarand Tapaswi&lt;/a&gt; from &lt;a href=&#34;https://www.wadhwaniai.org/&#34;&gt;Wadhwani AI&lt;/a&gt; on problems related to Long-tail distribution.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[May 2020]  :&lt;/strong&gt; Started working remotely with &lt;a href=&#34;https://w4nderlu.st/about&#34;&gt;Piero Molino&lt;/a&gt; from &lt;a href=&#34;https://www.uber.com/us/en/uberai/&#34;&gt;Uber AI&lt;/a&gt;, San Francisco, USA.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[July 2019]   :&lt;/strong&gt; Joined as a Research Intern under &lt;a href=&#34;https://www.iith.ac.in/~vineethnb/&#34;&gt;Dr Vineeth N Balasubramanian&lt;/a&gt; at &lt;strong&gt;IIT Hyderabad&lt;/strong&gt;&amp;lsquo;s &lt;a href=&#34;https://lab1055.github.io/&#34;&gt;Machine Learning and Vision Lab&lt;/a&gt;.&lt;/p&gt;
 
 </description>

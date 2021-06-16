@@ -5,12 +5,22 @@
     <link>/authors/admin/</link>
       <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Rahul Vigneswaran</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021 Rahul Vigneswaran ©</copyright><lastBuildDate>Wed, 19 Aug 2020 18:48:43 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021 Rahul Vigneswaran ©</copyright><lastBuildDate>Sat, 13 Mar 2021 05:17:07 +0530</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>Rahul Vigneswaran</title>
       <link>/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Long Tail Classification</title>
+      <link>/post/long-tail-classification/</link>
+      <pubDate>Sat, 13 Mar 2021 05:17:07 +0530</pubDate>
+      <guid>/post/long-tail-classification/</guid>
+      <description>&lt;h1 id=&#34;tomato-is-the-best-potato&#34;&gt;Tomato is the best potato&lt;/h1&gt;
+&lt;p&gt;$a_2 \geq \delta^2$&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Deeper Look at the Hessian Eigen spectrum of Deep Neural Networks and its Applications to Regularization</title>

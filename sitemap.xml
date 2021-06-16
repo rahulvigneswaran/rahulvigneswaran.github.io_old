@@ -4,7 +4,22 @@
   
   <url>
     <loc>/authors/admin/</loc>
-    <lastmod>2020-08-19T18:48:43+05:30</lastmod>
+    <lastmod>2021-03-13T05:17:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2021-03-13T05:17:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/long-tail-classification/</loc>
+    <lastmod>2021-03-13T05:17:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2021-03-13T05:17:07+05:30</lastmod>
   </url>
   
   <url>
@@ -19,11 +34,6 @@
   
   <url>
     <loc>/authors/adepu-ravi-shankar/</loc>
-    <lastmod>2020-08-19T18:48:43+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
     <lastmod>2020-08-19T18:48:43+05:30</lastmod>
   </url>
   
@@ -199,10 +209,6 @@
   
   <url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
   </url>
   
   <url>
