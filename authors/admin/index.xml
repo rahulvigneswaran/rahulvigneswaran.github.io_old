@@ -5,7 +5,7 @@
     <link>/authors/admin/</link>
       <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Rahul Vigneswaran</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021 Rahul Vigneswaran ©</copyright><lastBuildDate>Sat, 13 Mar 2021 05:17:07 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021 Rahul Vigneswaran ©</copyright><lastBuildDate>Mon, 11 Oct 2021 07:56:52 +0530</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>Rahul Vigneswaran</title>
@@ -13,12 +13,318 @@
     </image>
     
     <item>
-      <title>Long Tail Classification</title>
+      <title>Long Tail Classification 📉</title>
       <link>/post/long-tail-classification/</link>
-      <pubDate>Sat, 13 Mar 2021 05:17:07 +0530</pubDate>
+      <pubDate>Mon, 11 Oct 2021 07:56:52 +0530</pubDate>
       <guid>/post/long-tail-classification/</guid>
-      <description>&lt;h1 id=&#34;tomato-is-the-best-potato&#34;&gt;Tomato is the best potato&lt;/h1&gt;
-&lt;p&gt;$a_2 \geq \delta^2$&lt;/p&gt;
+      <description>&lt;!-- Template
+
+&lt;!-- #### []() 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Datasets&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CIFAR-LT 100&lt;/li&gt;
+&lt;li&gt;ImageNet-LT&lt;/li&gt;
+&lt;li&gt;Places-LT&lt;/li&gt;
+&lt;li&gt;iNaturalist18&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+##### Summary --&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Updates&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[Oct 21] Started adding CVPR, ICLR 21 papers.&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#2021&#34;&gt;2021&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#cvpr-21&#34;&gt;CVPR 21&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#iclr-21&#34;&gt;ICLR 21&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;h2 id=&#34;2021&#34;&gt;2021&lt;/h2&gt;
+&lt;h3 id=&#34;cvpr-21&#34;&gt;CVPR 21&lt;/h3&gt;
+&lt;h4 id=&#34;disentangling-label-distribution-for-long-tailed-visual-recognition-ladehttpsarxivorgabs201200321&#34;&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2012.00321&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disentangling Label Distribution for Long-tailed Visual Recognition [LADE]&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Datasets&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CIFAR-LT 100&lt;/li&gt;
+&lt;li&gt;ImageNet-LT&lt;/li&gt;
+&lt;li&gt;Places-LT&lt;/li&gt;
+&lt;li&gt;iNaturalist18&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h5 id=&#34;summary&#34;&gt;Summary&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Consider it as label shift problem - Unmatched source and target label distribution
+&lt;ul&gt;
+&lt;li&gt;Disentangle source label distro and model prediction
+&lt;ul&gt;
+&lt;li&gt;After training [PC Softmax]: Baseline - Match model prediction to target label distro post-hoc
+&lt;ul&gt;
+&lt;li&gt;Post-Compensated (PC) Softmax&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;During training [LADE]: Disentangle model prediction and source label distro
+&lt;ul&gt;
+&lt;li&gt;LADER loss disentangles logits from source label distro&lt;/li&gt;
+&lt;li&gt;Use LADE-CE loss to match logits to target label distro&lt;/li&gt;
+&lt;li&gt;LADE = LADE-CE + LADER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;improving-calibration-for-long-tailed-recognitionhttpsarxivorgpdf210400466pdf&#34;&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2104.00466.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Improving Calibration for Long-Tailed Recognition&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Datasets&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CIFAR-LT 10/100&lt;/li&gt;
+&lt;li&gt;ImageNet-LT&lt;/li&gt;
+&lt;li&gt;Places-LT&lt;/li&gt;
+&lt;li&gt;iNaturalist18&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h5 id=&#34;summary-1&#34;&gt;Summary&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;High Expected Calibration Error (ECE) for networks trained on LT datasets
+&lt;ul&gt;
+&lt;li&gt;Mix-up (Takes care of CNN)
+&lt;ul&gt;
+&lt;li&gt;Mixup in 1st stage of decouple helps&lt;/li&gt;
+&lt;li&gt;Reduces the weight norm of head and increases tail class weight norm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Label aware smoothing (Takes care of Classifier)
+&lt;ul&gt;
+&lt;li&gt;Higher smoothing factor for head and lower for tail
+&lt;ul&gt;
+&lt;li&gt;They try three types (Fig 6) - Concave, Linear, Convex&lt;/li&gt;
+&lt;li&gt;cRT has better representation ability and LWS has better generalization property
+&lt;ul&gt;
+&lt;li&gt;They combine both together in the second stage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dataset bias/domain shift when decoupling
+&lt;ul&gt;
+&lt;li&gt;Batch Normalization
+&lt;ul&gt;
+&lt;li&gt;During stage 2, update the running mean and variance but don’t change the trainable params in BN layer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;iclr-21&#34;&gt;ICLR 21&lt;/h3&gt;
+&lt;h4 id=&#34;ride-long-tailed-recognition-by-routing-diverse-distribution-aware-expertshttpsopenreviewnetforumidd9i3drbz4uc&#34;&gt;
+&lt;a href=&#34;https://openreview.net/forum?id=D9I3drBz4UC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RIDE: Long-tailed Recognition by Routing Diverse Distribution-Aware Experts&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Datasets&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CIFAR-LT 100&lt;/li&gt;
+&lt;li&gt;ImageNet-LT&lt;/li&gt;
+&lt;li&gt;iNaturalist18&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h5 id=&#34;summary-2&#34;&gt;Summary&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiple experts - Reduces model variance
+&lt;ul&gt;
+&lt;li&gt;Use multiple experts (networks) with shared earlier layers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Distribution aware diversity loss - Reduces model bias
+&lt;ul&gt;
+&lt;li&gt;Loss term that maximizes KL-div between experts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dynamic expert routing - Reduces computational cost
+&lt;ul&gt;
+&lt;li&gt;Instead of using all the experts, choose experts depending on the sample at hand&lt;/li&gt;
+&lt;li&gt;Self-distillation
+&lt;ul&gt;
+&lt;li&gt;Can also do self distillation from a model with more experts to fewer experts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tips &amp; Tricks: Working With Large Datasets 🔢</title>
+      <link>/post/working-with-large-datasets-tips-tricks/</link>
+      <pubDate>Mon, 11 Oct 2021 00:06:15 +0530</pubDate>
+      <guid>/post/working-with-large-datasets-tips-tricks/</guid>
+      <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#gpu&#34;&gt;GPU&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#cpu&#34;&gt;CPU&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#storage&#34;&gt;Storage&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#general-training&#34;&gt;General Training&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#loss&#34;&gt;Loss&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#datasetdataloader&#34;&gt;Dataset/Dataloader&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#misc&#34;&gt;Misc&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;h2 id=&#34;gpu&#34;&gt;GPU&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If you have limited GPU memory, always lazy load the data. Instead of loading the images of the entire dataset at the same time, load the images batch by batch.
+&lt;ul&gt;
+&lt;li&gt;Check 
+&lt;a href=&#34;https://discuss.pytorch.org/t/loading-huge-data-functionality/346/3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this thread&lt;/a&gt; for an example.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Batch size plays an important role in your training, so if you have a limited GPU memory and can&amp;rsquo;t fit the entire batch in it, do gradient accumulation. In this you do &lt;code&gt;optimizer.step&lt;/code&gt; and &lt;code&gt;model.zero_grad()&lt;/code&gt; once in few steps.
+&lt;ul&gt;
+&lt;li&gt;Check 
+&lt;a href=&#34;https://gist.github.com/thomwolf/ac7a7da6b1888c2eeac8ac8b9b05d3d3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If you have GPU bottleneck and decide to go with &lt;code&gt;torch.nn.DataParallel&lt;/code&gt;, there is a catch regarding the batch size.
+&lt;ul&gt;
+&lt;li&gt;Look at the thread below for more. &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I trained a model on 1 GPU and then using &lt;a href=&#34;https://twitter.com/PyTorch?ref_src=twsrc%5Etfw&#34;&gt;@PyTorch&lt;/a&gt; DataParallel on 2 GPUs. Even though I fixed the seed, I got 2 different training plots. &lt;br&gt;&lt;br&gt;Turns out, if you use batchsize=n and GPU_count=x, it&amp;#39;s equivalent to having effective_batchsize=n*x.&lt;/p&gt;&amp;mdash; Rahul Vigneswaran (@somethingmyname) &lt;a href=&#34;https://twitter.com/somethingmyname/status/1400042667543654402?ref_src=twsrc%5Etfw&#34;&gt;June 2, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Useful utilities/commands:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;gpustat --watch&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;glances&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cpu&#34;&gt;CPU&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are running multiple experiments but have limited number of cores, use &lt;code&gt;taskset --cpu-list &amp;lt;starting_thread&amp;gt;-&amp;lt;ending thread number&amp;gt; &amp;lt;your_code&amp;gt;.py&lt;/code&gt;. This will make sure your specific runs use only the allotted threads from &lt;code&gt;&amp;lt;starting_thread&amp;gt;&lt;/code&gt;to &lt;code&gt;&amp;lt;ending thread number&amp;gt;&lt;/code&gt; and prevents from constant reallocation of CPU threads as each run fight for the threads. Note that this is helpful only if everyone on the server respects the core allotment.&lt;/li&gt;
+&lt;li&gt;More &lt;code&gt;num_workers&lt;/code&gt; doesn&amp;rsquo;t lead to a faster data loader. In fact, in most cases having higher &lt;code&gt;num_workers&lt;/code&gt; will lead to a slower data loader. As far as I know, there is no thumb rule but there does exist a sweet spot that is mostly identified through trial and error.
+&lt;ul&gt;
+&lt;li&gt;Check 
+&lt;a href=&#34;https://discuss.pytorch.org/t/guidelines-for-assigning-num-workers-to-dataloader/813&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this thread&lt;/a&gt; for more.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Useful utilities/commands:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;htop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;glances&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;storage&#34;&gt;Storage&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure you are running (read, log, train) on SSD. HDD causes I/O bottlenecks which are hard to get over even if you sell your soul to satan.
+&lt;ul&gt;
+&lt;li&gt;Check with this &lt;code&gt;lsblk -o NAME,MOUNTPOINT,MODEL,ROTA,SIZE&lt;/code&gt;. ROTA == 0 means, the drive is an SSD.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Useful utilities/commands:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ncdu&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;df -h&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;general-training&#34;&gt;General Training&lt;/h2&gt;
+&lt;h3 id=&#34;loss&#34;&gt;Loss&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If you have implemented a new type of loss, do a overfit test first. Instead of running the experiments on the entire dataset, overfit a single batch. You should be able to get your lower bound of the implemented loss and 100% train accuracy, else something is wrong with the implementation.
+&lt;ul&gt;
+&lt;li&gt;Check 
+&lt;a href=&#34;http://karpathy.github.io/2019/04/25/recipe/#:~:text=overfit%20one%20batch.%20Overfit%20a%20single%20batch,we%20cannot%20continue%20to%20the%20next%20stage&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Karpathy&amp;rsquo;s blogpost&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nan&lt;/code&gt; related issues:
+&lt;ul&gt;
+&lt;li&gt;If you have some custom loss and don&amp;rsquo;t know where the &lt;code&gt;nan&lt;/code&gt; is coming from, use 
+&lt;a href=&#34;https://pytorch.org/docs/master/autograd.html#anomaly-detection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyTorch&amp;rsquo;s anamoly detection feature&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Ways to tackle &lt;code&gt;nan&lt;/code&gt; and related issues: 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/XlYD8jn1ayE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;datasetdataloader&#34;&gt;Dataset/Dataloader&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;If you want to know whether that idea that&amp;rsquo;s keeping you awake at night works but ImageNet takes too much time, then check these datasets:
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.kaggle.com/c/tiny-imagenet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tiny ImageNet&lt;/a&gt; : 200 class version of ImageNet&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/yaoyao-liu/mini-imagenet-tools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mini ImageNet&lt;/a&gt; : 100 class version of ImageNet
+&lt;ul&gt;
+&lt;li&gt;Note that the above version is for few-shot learning. You can convert it into normal classification using this - &lt;insert link here&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/fastai/imagenette&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Imagenette&lt;/a&gt; : Easier 10 class version of ImageNet
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/fastai/imagenette/tree/master/noisy_labels&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noisy Imagenette&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/fastai/imagenette#imagewoof&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Imagewoof&lt;/a&gt;: Relatively hard version of Imagenette
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/fastai/imagenette/tree/master/noisy_labels&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noisy Imagewoof&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/fastai/imagenette#image%E7%BD%91&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Imagewang&lt;/a&gt;: Semi-supervised version which combines both Imagenette and Imagewoof&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;misc&#34;&gt;Misc&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement resume functionality ASAP. Trust me, this will prevent crying yourself to sleep at night.
+&lt;ul&gt;
+&lt;li&gt;If you are using wandb, then you can even resume the logging. Feels like magic. Check the thread below for more. &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Coming from the world of CIFARs, I have never bothered to implement a resume function in my code. The Big boi datasets finally forced me to write a resume function today. I know exactly how it works but it still feels like magic to resume a large run after it crashes! &lt;a href=&#34;https://t.co/i6uInpIpXx&#34;&gt;pic.twitter.com/i6uInpIpXx&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rahul Vigneswaran (@somethingmyname) &lt;a href=&#34;https://twitter.com/somethingmyname/status/1400237720413171713?ref_src=twsrc%5Etfw&#34;&gt;June 2, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If you come from the happy land of CIFARs and MNISTs like me, don&amp;rsquo;t stare at the runs. It will take days to weeks. Get a hobby or it&amp;rsquo;s finally time to open that &amp;ldquo;Interesting Papers&amp;rdquo; folder.&lt;/li&gt;
+&lt;li&gt;As a final note, make sure to avoid everything in the thread below by Karpathy. &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;most common neural net mistakes: 1) you didn&amp;#39;t try to overfit a single batch first. 2) you forgot to toggle train/eval mode for the net. 3) you forgot to .zero_grad() (in pytorch) before .backward(). 4) you passed softmaxed outputs to a loss that expects raw logits. ; others? :)&lt;/p&gt;&amp;mdash; Andrej Karpathy (@karpathy) &lt;a href=&#34;https://twitter.com/karpathy/status/1013244313327681536?ref_src=twsrc%5Etfw&#34;&gt;July 1, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -186,6 +492,14 @@
       <link>/publication/evaluating-shallow-and-deep-neural-networks-for-network-intrusion-detection-systems-in-cyber-security/</link>
       <pubDate>Tue, 10 Jul 2018 01:21:44 +0530</pubDate>
       <guid>/publication/evaluating-shallow-and-deep-neural-networks-for-network-intrusion-detection-systems-in-cyber-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PatchUp: A Regularization Technique for Convolutional Neural Networks</title>
+      <link>/implementations/patch-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/implementations/patch-up/</guid>
       <description></description>
     </item>
     

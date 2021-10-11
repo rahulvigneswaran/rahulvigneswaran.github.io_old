@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computervision | Rahul Vigneswaran</title>
+    <link>/tags/computervision/</link>
+      <atom:link href="/tags/computervision/index.xml" rel="self" type="application/rss+xml" />
+    <description>computervision</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021 Rahul Vigneswaran ©</copyright><lastBuildDate>Mon, 11 Oct 2021 07:56:52 +0530</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>computervision</title>
+      <link>/tags/computervision/</link>
+    </image>
+    
+    <item>
+      <title>Long Tail Classification 📉</title>
+      <link>/post/long-tail-classification/</link>
+      <pubDate>Mon, 11 Oct 2021 07:56:52 +0530</pubDate>
+      <guid>/post/long-tail-classification/</guid>
+      <description>&lt;!-- Template
+
+&lt;!-- #### []() 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Datasets&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CIFAR-LT 100&lt;/li&gt;
+&lt;li&gt;ImageNet-LT&lt;/li&gt;
+&lt;li&gt;Places-LT&lt;/li&gt;
+&lt;li&gt;iNaturalist18&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+##### Summary --&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Updates&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[Oct 21] Started adding CVPR, ICLR 21 papers.&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#2021&#34;&gt;2021&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#cvpr-21&#34;&gt;CVPR 21&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#iclr-21&#34;&gt;ICLR 21&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;h2 id=&#34;2021&#34;&gt;2021&lt;/h2&gt;
+&lt;h3 id=&#34;cvpr-21&#34;&gt;CVPR 21&lt;/h3&gt;
+&lt;h4 id=&#34;disentangling-label-distribution-for-long-tailed-visual-recognition-ladehttpsarxivorgabs201200321&#34;&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2012.00321&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disentangling Label Distribution for Long-tailed Visual Recognition [LADE]&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Datasets&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CIFAR-LT 100&lt;/li&gt;
+&lt;li&gt;ImageNet-LT&lt;/li&gt;
+&lt;li&gt;Places-LT&lt;/li&gt;
+&lt;li&gt;iNaturalist18&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h5 id=&#34;summary&#34;&gt;Summary&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Consider it as label shift problem - Unmatched source and target label distribution
+&lt;ul&gt;
+&lt;li&gt;Disentangle source label distro and model prediction
+&lt;ul&gt;
+&lt;li&gt;After training [PC Softmax]: Baseline - Match model prediction to target label distro post-hoc
+&lt;ul&gt;
+&lt;li&gt;Post-Compensated (PC) Softmax&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;During training [LADE]: Disentangle model prediction and source label distro
+&lt;ul&gt;
+&lt;li&gt;LADER loss disentangles logits from source label distro&lt;/li&gt;
+&lt;li&gt;Use LADE-CE loss to match logits to target label distro&lt;/li&gt;
+&lt;li&gt;LADE = LADE-CE + LADER&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;improving-calibration-for-long-tailed-recognitionhttpsarxivorgpdf210400466pdf&#34;&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2104.00466.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Improving Calibration for Long-Tailed Recognition&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Datasets&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CIFAR-LT 10/100&lt;/li&gt;
+&lt;li&gt;ImageNet-LT&lt;/li&gt;
+&lt;li&gt;Places-LT&lt;/li&gt;
+&lt;li&gt;iNaturalist18&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h5 id=&#34;summary-1&#34;&gt;Summary&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;High Expected Calibration Error (ECE) for networks trained on LT datasets
+&lt;ul&gt;
+&lt;li&gt;Mix-up (Takes care of CNN)
+&lt;ul&gt;
+&lt;li&gt;Mixup in 1st stage of decouple helps&lt;/li&gt;
+&lt;li&gt;Reduces the weight norm of head and increases tail class weight norm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Label aware smoothing (Takes care of Classifier)
+&lt;ul&gt;
+&lt;li&gt;Higher smoothing factor for head and lower for tail
+&lt;ul&gt;
+&lt;li&gt;They try three types (Fig 6) - Concave, Linear, Convex&lt;/li&gt;
+&lt;li&gt;cRT has better representation ability and LWS has better generalization property
+&lt;ul&gt;
+&lt;li&gt;They combine both together in the second stage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dataset bias/domain shift when decoupling
+&lt;ul&gt;
+&lt;li&gt;Batch Normalization
+&lt;ul&gt;
+&lt;li&gt;During stage 2, update the running mean and variance but don’t change the trainable params in BN layer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;iclr-21&#34;&gt;ICLR 21&lt;/h3&gt;
+&lt;h4 id=&#34;ride-long-tailed-recognition-by-routing-diverse-distribution-aware-expertshttpsopenreviewnetforumidd9i3drbz4uc&#34;&gt;
+&lt;a href=&#34;https://openreview.net/forum?id=D9I3drBz4UC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RIDE: Long-tailed Recognition by Routing Diverse Distribution-Aware Experts&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Datasets&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CIFAR-LT 100&lt;/li&gt;
+&lt;li&gt;ImageNet-LT&lt;/li&gt;
+&lt;li&gt;iNaturalist18&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h5 id=&#34;summary-2&#34;&gt;Summary&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Multiple experts - Reduces model variance
+&lt;ul&gt;
+&lt;li&gt;Use multiple experts (networks) with shared earlier layers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Distribution aware diversity loss - Reduces model bias
+&lt;ul&gt;
+&lt;li&gt;Loss term that maximizes KL-div between experts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dynamic expert routing - Reduces computational cost
+&lt;ul&gt;
+&lt;li&gt;Instead of using all the experts, choose experts depending on the sample at hand&lt;/li&gt;
+&lt;li&gt;Self-distillation
+&lt;ul&gt;
+&lt;li&gt;Can also do self distillation from a model with more experts to fewer experts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

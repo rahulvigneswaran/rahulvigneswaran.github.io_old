@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021 Rahul Vigneswaran ©</copyright><lastBuildDate>Sat, 13 Mar 2021 05:17:07 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2021 Rahul Vigneswaran ©</copyright><lastBuildDate>Mon, 11 Oct 2021 07:56:52 +0530</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>Authors</title>
