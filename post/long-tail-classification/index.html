@@ -543,7 +543,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    3 min read
+    4 min read
   </span>
   
 
@@ -791,34 +791,67 @@
 </ol>
 </li>
 </ul>
-<!--     
-#### [Disentangling Label Distribution for Long-tailed Visual Recognition [LADE]](https://arxiv.org/abs/2012.00321)
-
+<h4 id="disentangling-label-distribution-for-long-tailed-visual-recognition-ladehttpsarxivorgabs201200321">
+<a href="https://arxiv.org/abs/2012.00321" target="_blank" rel="noopener">Disentangling Label Distribution for Long-tailed Visual Recognition [LADE]</a></h4>
 <div class="alert alert-note">
   <div>
-    Datasets</p>
-<ul>
-<li>CIFAR-LT 100</li>
-<li>ImageNet-LT</li>
-<li>Places-LT</li>
-<li>iNaturalist18</li>
-</ul>
+    Experimental Setup</p>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>Architecture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CIFAR-LT 100</td>
+<td>ResNet-32</td>
+</tr>
+<tr>
+<td>ImageNet-LT</td>
+<td>ResNeXt-50</td>
+</tr>
+<tr>
+<td>Places-LT</td>
+<td>ResNet-152</td>
+</tr>
+<tr>
+<td>iNaturalist18</td>
+<td>ResNet-50</td>
+</tr>
+</tbody>
+</table>
   </div>
 </div>
-
-
-##### Summary
-- Consider it as label shift problem - Unmatched source and target label distribution
-  - Disentangle source label distro and model prediction
-    - After training [PC Softmax]: Baseline - Match model prediction to target label distro post-hoc
-      - Post-Compensated (PC) Softmax
-    - During training [LADE]: Disentangle model prediction and source label distro 
-      - LADER loss disentangles logits from source label distro
-      - Use LADE-CE loss to match logits to target label distro
-      - LADE = LADE-CE + LADER
-
-
-
+<h5 id="summary-2">Summary</h5>
+<ul>
+<li><strong>(Problem)</strong> Consider it as label shift problem - Unmatched source and target label distribution
+<ul>
+<li><strong>(Solution)</strong> Disentangle source label distro and model prediction
+<ul>
+<li>After training <strong>[PC Softmax]</strong>: Baseline - Match model prediction to target label distro post-hoc
+<ul>
+<li>Post-Compensated (PC) Softmax <img src="2021-11-12-02-07-13.png" alt="pc-softmax">
+<ul>
+<li><mark> But how do we know the $p_t$ </mark>? They assume three different distrubtion (Forward, Uniform, Backward) and show that PC Softmax performs better in all scenarios irrespective of the actual $p_t$ of the dataset. <img src="2021-11-12-02-20-01.png" alt="results on different p_t"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>During training <strong>[LADE]</strong>: Disentangle model prediction and source label distro
+<ul>
+<li>LADER loss disentangles logits from source label distro</li>
+<li>Use LADE-CE loss to match logits to target label distro</li>
+<li>LADE = LADE-CE + LADER</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--
 #### [Distribution Alignment: A Unified Framework for Long-tail Visual Recognition](https://arxiv.org/abs/2103.16370) 
 <div class="alert alert-note">
   <div>
