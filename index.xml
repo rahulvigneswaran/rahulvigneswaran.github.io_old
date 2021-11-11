@@ -34,6 +34,41 @@
 
 
 ##### Summary --&gt;
+&lt;!-- #### []() 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Experimental Setup&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Dataset&lt;/th&gt;
+&lt;th&gt;Architecture&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;CIFAR-LT 100&lt;/td&gt;
+&lt;td&gt;ResNet-32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ImageNet-LT&lt;/td&gt;
+&lt;td&gt;ResNeXt-50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Places-LT&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;iNaturalist18&lt;/td&gt;
+&lt;td&gt;ResNeXt-50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+##### Summary --&gt;
 &lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
     Updates&lt;/p&gt;
@@ -48,7 +83,6 @@
     &lt;li&gt;&lt;a href=&#34;#2021&#34;&gt;2021&lt;/a&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;#cvpr-21&#34;&gt;CVPR 21&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#iclr-21&#34;&gt;ICLR 21&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
@@ -56,42 +90,6 @@
 
 &lt;h2 id=&#34;2021&#34;&gt;2021&lt;/h2&gt;
 &lt;h3 id=&#34;cvpr-21&#34;&gt;CVPR 21&lt;/h3&gt;
-&lt;h4 id=&#34;disentangling-label-distribution-for-long-tailed-visual-recognition-ladehttpsarxivorgabs201200321&#34;&gt;
-&lt;a href=&#34;https://arxiv.org/abs/2012.00321&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disentangling Label Distribution for Long-tailed Visual Recognition [LADE]&lt;/a&gt;&lt;/h4&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Datasets&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CIFAR-LT 100&lt;/li&gt;
-&lt;li&gt;ImageNet-LT&lt;/li&gt;
-&lt;li&gt;Places-LT&lt;/li&gt;
-&lt;li&gt;iNaturalist18&lt;/li&gt;
-&lt;/ul&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h5 id=&#34;summary&#34;&gt;Summary&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;Consider it as label shift problem - Unmatched source and target label distribution
-&lt;ul&gt;
-&lt;li&gt;Disentangle source label distro and model prediction
-&lt;ul&gt;
-&lt;li&gt;After training [PC Softmax]: Baseline - Match model prediction to target label distro post-hoc
-&lt;ul&gt;
-&lt;li&gt;Post-Compensated (PC) Softmax&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;During training [LADE]: Disentangle model prediction and source label distro
-&lt;ul&gt;
-&lt;li&gt;LADER loss disentangles logits from source label distro&lt;/li&gt;
-&lt;li&gt;Use LADE-CE loss to match logits to target label distro&lt;/li&gt;
-&lt;li&gt;LADE = LADE-CE + LADER&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h4 id=&#34;improving-calibration-for-long-tailed-recognitionhttpsarxivorgpdf210400466pdf&#34;&gt;
 &lt;a href=&#34;https://arxiv.org/pdf/2104.00466.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Improving Calibration for Long-Tailed Recognition&lt;/a&gt;&lt;/h4&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -105,45 +103,204 @@
 &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;h5 id=&#34;summary-1&#34;&gt;Summary&lt;/h5&gt;
+&lt;h5 id=&#34;summary&#34;&gt;Summary&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;High Expected Calibration Error (ECE) for networks trained on LT datasets
 &lt;ul&gt;
-&lt;li&gt;Mix-up (Takes care of CNN)
+&lt;li&gt;Mix-up &lt;em&gt;(Takes care of CNN)&lt;/em&gt;
 &lt;ul&gt;
 &lt;li&gt;Mixup in 1st stage of decouple helps&lt;/li&gt;
-&lt;li&gt;Reduces the weight norm of head and increases tail class weight norm&lt;/li&gt;
+&lt;li&gt;Reduces the weight norm of head and increases tail class weight norm
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;2021-11-11-23-56-26.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Label aware smoothing (Takes care of Classifier)
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Label aware smoothing &lt;em&gt;(Takes care of Classifier)&lt;/em&gt;
 &lt;ul&gt;
 &lt;li&gt;Higher smoothing factor for head and lower for tail
 &lt;ul&gt;
-&lt;li&gt;They try three types (Fig 6) - Concave, Linear, Convex&lt;/li&gt;
+&lt;li&gt;They try three types - Concave, Linear, Convex
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;2021-11-11-23-57-45.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;cRT has better representation ability and LWS has better generalization property
 &lt;ul&gt;
 &lt;li&gt;They combine both together in the second stage&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;2021-11-12-00-04-54.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Dataset bias/domain shift when decoupling
+&lt;li&gt;&lt;strong&gt;(Problem)&lt;/strong&gt; Dataset bias/domain shift when decoupling
 &lt;ul&gt;
-&lt;li&gt;Batch Normalization
+&lt;li&gt;In 2-stage training, stage-1 is trained on a different domain (sampler) than stage-2 -&amp;gt; Domain shift.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;(Solution)&lt;/strong&gt; Batch Normalization
 &lt;ul&gt;
 &lt;li&gt;During stage 2, update the running mean and variance but don’t change the trainable params in BN layer&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Notes:
+&lt;ul&gt;
+&lt;li&gt;cRT: &lt;img src=&#34;2021-11-12-00-11-28.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;LWS&lt;img src=&#34;2021-11-12-00-12-37.png&#34; alt=&#34;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;Works better for large scale datasets compared to cRT.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;iclr-21&#34;&gt;ICLR 21&lt;/h3&gt;
-&lt;h4 id=&#34;ride-long-tailed-recognition-by-routing-diverse-distribution-aware-expertshttpsopenreviewnetforumidd9i3drbz4uc&#34;&gt;
-&lt;a href=&#34;https://openreview.net/forum?id=D9I3drBz4UC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RIDE: Long-tailed Recognition by Routing Diverse Distribution-Aware Experts&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;contrastive-learning-based-hybrid-networks-for-long-tailed-image-classificationhttpsarxivorgabs210314267&#34;&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2103.14267&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification&lt;/a&gt;&lt;/h4&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Experimental Setup&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Dataset&lt;/th&gt;
+&lt;th&gt;Architecture&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;CIFAR-LT 10/100&lt;/td&gt;
+&lt;td&gt;ResNet-32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;iNaturalist18&lt;/td&gt;
+&lt;td&gt;ResNet-50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h5 id=&#34;summary-1&#34;&gt;Summary&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Main strategy:
+&lt;ul&gt;
+&lt;li&gt;Pull similar samples together AND Push dissimilar samples apart (Supervised contrastive learning (SC))&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hybrid network (Transition from 1 -&amp;gt; 2 with a curriculum) (!! Is this not similar to BBN? Yes but with two different loss instead of samplers) &lt;img src=&#34;2021-11-12-00-42-30.png&#34; alt=&#34;&#34;&gt;
+&lt;ol&gt;
+&lt;li&gt;Features -&amp;gt; Constrastive Loss  (SC)
+&lt;ul&gt;
+&lt;li&gt;Input : Labels are either positive or negative.&lt;/li&gt;
+&lt;li&gt;Backbone : Common ResNet&lt;/li&gt;
+&lt;li&gt;Projection head : Non-linear embedding layer (with 1 hidden layer) -&amp;gt; $l_2$ normalize the embedding&lt;/li&gt;
+&lt;li&gt;Loss : Supervised contrastive learning loss ($L_{SCL}$)
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;(Problem)&lt;/strong&gt; Extra memory consumption problem : We need to use both distance to the +ves and -ves. The number -ves would be high which makes it essential to keep alot of information in the memory.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;(Solution)&lt;/strong&gt; Propose Prototypical supervised constrastive learning (PSC)
+&lt;ul&gt;
+&lt;li&gt;Pull towards prototypes of its own class and push away from the prototypes of all other classes.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Multiple Prototype Contrastive Learning&lt;/strong&gt; (MPSC): While PSC uses only one prototype per class. (BUT THEY DONT SHOW ANY RESULTS ON THIS! Future work.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Classifier -&amp;gt; Cross-entropy  (CE)
+&lt;ul&gt;
+&lt;li&gt;Input: Usual labels&lt;/li&gt;
+&lt;li&gt;Backbone : Common ResNet&lt;/li&gt;
+&lt;li&gt;Projection head : Linear embedding layer (no hidden layer)&lt;/li&gt;
+&lt;li&gt;Loss : Cross Entropy ($L_{CE}$)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--     
+#### [Disentangling Label Distribution for Long-tailed Visual Recognition [LADE]](https://arxiv.org/abs/2012.00321)
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Datasets&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CIFAR-LT 100&lt;/li&gt;
+&lt;li&gt;ImageNet-LT&lt;/li&gt;
+&lt;li&gt;Places-LT&lt;/li&gt;
+&lt;li&gt;iNaturalist18&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+##### Summary
+- Consider it as label shift problem - Unmatched source and target label distribution
+  - Disentangle source label distro and model prediction
+    - After training [PC Softmax]: Baseline - Match model prediction to target label distro post-hoc
+      - Post-Compensated (PC) Softmax
+    - During training [LADE]: Disentangle model prediction and source label distro 
+      - LADER loss disentangles logits from source label distro
+      - Use LADE-CE loss to match logits to target label distro
+      - LADE = LADE-CE + LADER
+
+
+
+#### [Distribution Alignment: A Unified Framework for Long-tail Visual Recognition](https://arxiv.org/abs/2103.16370) 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Experimental Setup&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Task&lt;/th&gt;
+&lt;th&gt;Dataset&lt;/th&gt;
+&lt;th&gt;Architecture&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Classification&lt;/td&gt;
+&lt;td&gt;ImageNet-LT&lt;/td&gt;
+&lt;td&gt;ResNet or ResNeXt-{50,101,152}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Classification&lt;/td&gt;
+&lt;td&gt;Places-LT&lt;/td&gt;
+&lt;td&gt;ResNet-{50,101,152}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Classification&lt;/td&gt;
+&lt;td&gt;iNaturalist18&lt;/td&gt;
+&lt;td&gt;ResNet-{50,101,152}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Object detection, Instance segmentation&lt;/td&gt;
+&lt;td&gt;LVIS&lt;/td&gt;
+&lt;td&gt;[ResNet-{50} AND Mask R-CNN+FPN] OR [[ResNet-{50,101} or ResNeXt-{101}] AND Cascade R-CNN]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Semantic segmentation&lt;/td&gt;
+&lt;td&gt;ADE20k&lt;/td&gt;
+&lt;td&gt;[ResNet-{50,101} OR ResNeSt-{101}]  AND [FCN OR DeepLabV3+]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+##### Summary
+- 
+
+### ICLR 21
+#### [RIDE: Long-tailed Recognition by Routing Diverse Distribution-Aware Experts](https://openreview.net/forum?id=D9I3drBz4UC) 
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Datasets&lt;/p&gt;
@@ -154,29 +311,17 @@
 &lt;/ul&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;h5 id=&#34;summary-2&#34;&gt;Summary&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;Multiple experts - Reduces model variance
-&lt;ul&gt;
-&lt;li&gt;Use multiple experts (networks) with shared earlier layers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Distribution aware diversity loss - Reduces model bias
-&lt;ul&gt;
-&lt;li&gt;Loss term that maximizes KL-div between experts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Dynamic expert routing - Reduces computational cost
-&lt;ul&gt;
-&lt;li&gt;Instead of using all the experts, choose experts depending on the sample at hand&lt;/li&gt;
-&lt;li&gt;Self-distillation
-&lt;ul&gt;
-&lt;li&gt;Can also do self distillation from a model with more experts to fewer experts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+
+
+##### Summary
+- Multiple experts - Reduces model variance
+  - Use multiple experts (networks) with shared earlier layers
+- Distribution aware diversity loss - Reduces model bias
+  - Loss term that maximizes KL-div between experts
+- Dynamic expert routing - Reduces computational cost
+  - Instead of using all the experts, choose experts depending on the sample at hand
+  - Self-distillation
+      - Can also do self distillation from a model with more experts to fewer experts --&gt;
 </description>
     </item>
     
