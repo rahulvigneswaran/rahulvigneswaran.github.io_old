@@ -19,7 +19,8 @@
       <guid>/post/long-tail-classification/</guid>
       <description>&lt;!-- Template
 
-&lt;!-- #### []() 
+&lt;!-- #### 
+Links:  [arXiv](() 
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Datasets&lt;/p&gt;
@@ -82,16 +83,25 @@
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#2021&#34;&gt;2021&lt;/a&gt;
       &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#cvpr-21&#34;&gt;CVPR 21&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#cvpr-21&#34;&gt;CVPR 21&lt;/a&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&#34;#improving-calibration-for-long-tailed-recognition&#34;&gt;Improving Calibration for Long-Tailed Recognition&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#contrastive-learning-based-hybrid-networks-for-long-tailed-image-classification&#34;&gt;Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#disentangling-label-distribution-for-long-tailed-visual-recognition-lade&#34;&gt;Disentangling Label Distribution for Long-tailed Visual Recognition [LADE]&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&#34;#metasaug-meta-semantic-augmentation-for-long-tailed-visual-recognition&#34;&gt;MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
 
+
 &lt;h2 id=&#34;2021&#34;&gt;2021&lt;/h2&gt;
 &lt;h3 id=&#34;cvpr-21&#34;&gt;CVPR 21&lt;/h3&gt;
-&lt;h4 id=&#34;improving-calibration-for-long-tailed-recognitionhttpsarxivorgpdf210400466pdf&#34;&gt;
-&lt;a href=&#34;https://arxiv.org/pdf/2104.00466.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Improving Calibration for Long-Tailed Recognition&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;improving-calibration-for-long-tailed-recognition&#34;&gt;Improving Calibration for Long-Tailed Recognition&lt;/h4&gt;
+&lt;p&gt;Links:  
+&lt;a href=&#34;https://arxiv.org/pdf/2104.00466.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Datasets&lt;/p&gt;
@@ -159,8 +169,9 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;contrastive-learning-based-hybrid-networks-for-long-tailed-image-classificationhttpsarxivorgabs210314267&#34;&gt;
-&lt;a href=&#34;https://arxiv.org/abs/2103.14267&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;contrastive-learning-based-hybrid-networks-for-long-tailed-image-classification&#34;&gt;Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification&lt;/h4&gt;
+&lt;p&gt;Links:  
+&lt;a href=&#34;https://arxiv.org/abs/2103.14267&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Experimental Setup&lt;/p&gt;
@@ -225,8 +236,9 @@
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;disentangling-label-distribution-for-long-tailed-visual-recognition-ladehttpsarxivorgabs201200321&#34;&gt;
-&lt;a href=&#34;https://arxiv.org/abs/2012.00321&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disentangling Label Distribution for Long-tailed Visual Recognition [LADE]&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;disentangling-label-distribution-for-long-tailed-visual-recognition-lade&#34;&gt;Disentangling Label Distribution for Long-tailed Visual Recognition [LADE]&lt;/h4&gt;
+&lt;p&gt;Links:  
+&lt;a href=&#34;https://arxiv.org/abs/2012.00321&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Experimental Setup&lt;/p&gt;
@@ -285,8 +297,9 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;metasaug-meta-semantic-augmentation-for-long-tailed-visual-recognitionhttpsarxivorgabs210312579&#34;&gt;
-&lt;a href=&#34;https://arxiv.org/abs/2103.12579&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;metasaug-meta-semantic-augmentation-for-long-tailed-visual-recognition&#34;&gt;MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition&lt;/h4&gt;
+&lt;p&gt;Links:  
+&lt;a href=&#34;https://arxiv.org/abs/2103.12579&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Experimental Setup&lt;/p&gt;
@@ -431,6 +444,7 @@
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
+
 
 &lt;h2 id=&#34;gpu&#34;&gt;GPU&lt;/h2&gt;
 &lt;ul&gt;

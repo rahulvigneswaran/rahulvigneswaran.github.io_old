@@ -33,6 +33,7 @@
   &lt;/ul&gt;
 &lt;/nav&gt;
 
+
 &lt;h2 id=&#34;gpu&#34;&gt;GPU&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;If you have limited GPU memory, always lazy load the data. Instead of loading the images of the entire dataset at the same time, load the images batch by batch.
