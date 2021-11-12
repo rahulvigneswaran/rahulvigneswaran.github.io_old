@@ -841,11 +841,64 @@
 </li>
 <li>During training <strong>[LADE]</strong>: Disentangle model prediction and source label distro
 <ul>
-<li>LADER loss disentangles logits from source label distro</li>
-<li>Use LADE-CE loss to match logits to target label distro</li>
-<li>LADE = LADE-CE + LADER</li>
+<li>LADER loss : <strong>Disentangles</strong> logits from source label distro <img src="2021-11-12-19-19-09.png" alt=""></li>
+<li>LADE-CE loss : <strong>Match</strong> logits to target label distro <img src="2021-11-12-19-19-55.png" alt=""></li>
+<li><strong>LADE</strong> = LADE-CE + $\alpha$ LADER <img src="2021-11-12-19-20-10.png" alt=""></li>
 </ul>
 </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="metasaug-meta-semantic-augmentation-for-long-tailed-visual-recognitionhttpsarxivorgabs210312579">
+<a href="https://arxiv.org/abs/2103.12579" target="_blank" rel="noopener">MetaSAug: Meta Semantic Augmentation for Long-Tailed Visual Recognition</a></h4>
+<div class="alert alert-note">
+  <div>
+    Experimental Setup</p>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>Architecture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CIFAR-LT 10/100</td>
+<td>ResNet-32</td>
+</tr>
+<tr>
+<td>ImageNet-LT</td>
+<td>ResNet-50</td>
+</tr>
+<tr>
+<td>iNaturalist 17/18</td>
+<td>ResNet-50</td>
+</tr>
+</tbody>
+</table>
+  </div>
+</div>
+<h5 id="summary-3">Summary</h5>
+<ul>
+<li><strong>(Old work)</strong> 
+<a href="https://arxiv.org/abs/1909.12220" target="_blank" rel="noopener">Implicit Semantic Data Augmentation</a> (ISDA) : Enables class identity preserving augmentations by translating the features towards a meaningful semantic direction, using <strong>class covariance</strong> matrices.
+<ul>
+<li><strong>(Problem)</strong> Scarce data of the tail classes would make it hard to get a good covarince matrix.
+<ul>
+<li><strong>(Solution)</strong> MetaSAug : Meta learn the class covarince matrices using a balanced validation set.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>MetaSAug Algorithm: <img src="2021-11-12-20-23-06.png" alt=""></li>
+<li>Studying the Covariance matrices obtained by the method to confirm whether its actually helping.
+<ul>
+<li>Do SVD on the Convariance matrix under various scenario and check the <em>top 5 singluar values</em>.<img src="2021-11-12-20-25-24.png" alt="">
+<ul>
+<li>Blue (others) : The singular value is concentrated on the just the first value.</li>
+<li>Red (Proposed) : The singular value is comparitivly spread out across all the top 5 values.</li>
 </ul>
 </li>
 </ul>
